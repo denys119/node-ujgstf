@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.13"
+  },
+  "resolutions": {
+    "@vueuse/head": "v1.0.0-rc.14"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.33.0",
+    "monaco-editor-core": "^0.33.0",
+    "monaco-volar": "^0.0.6",
+    "vite-plugin-monaco-editor": "1.0.10"
+  }
+}
